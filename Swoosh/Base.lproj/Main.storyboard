@@ -277,7 +277,7 @@
                                             <constraint firstAttribute="height" constant="60" id="2zB-sy-SMJ"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="22"/>
-                                        <state key="normal" title="Mens">
+                                        <state key="normal" title="Beginner">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -296,7 +296,7 @@
                                             <constraint firstAttribute="height" constant="60" id="jPb-0y-Zwu"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="22"/>
-                                        <state key="normal" title="Womens">
+                                        <state key="normal" title="Baller">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -317,7 +317,7 @@
                                     <constraint firstAttribute="height" constant="60" id="MY6-r2-Odw"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="22"/>
-                                <state key="normal" title="NEXT">
+                                <state key="normal" title="FINISH">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>

@@ -22,6 +22,8 @@
 		012255651F364D0D002E2E3B /* UIVisualEffectViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0122555B1F364D0D002E2E3B /* UIVisualEffectViewX.swift */; };
 		012255661F364D0D002E2E3B /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0122555C1F364D0D002E2E3B /* UILabelX.swift */; };
 		012255671F364D0D002E2E3B /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0122555D1F364D0D002E2E3B /* UITextFieldX.swift */; };
+		012255691F3712D0002E2E3B /* DesiredLeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012255681F3712D0002E2E3B /* DesiredLeagueVC.swift */; };
+		0122556B1F37162C002E2E3B /* StartingPlayBallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0122556A1F37162C002E2E3B /* StartingPlayBallVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		0122555B1F364D0D002E2E3B /* UIVisualEffectViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectViewX.swift; sourceTree = "<group>"; };
 		0122555C1F364D0D002E2E3B /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
 		0122555D1F364D0D002E2E3B /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		012255681F3712D0002E2E3B /* DesiredLeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesiredLeagueVC.swift; sourceTree = "<group>"; };
+		0122556A1F37162C002E2E3B /* StartingPlayBallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingPlayBallVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				012255531F364CF0002E2E3B /* Designables */,
 				0122552B1F363B6E002E2E3B /* AppDelegate.swift */,
 				0122552D1F363B6E002E2E3B /* ViewController.swift */,
+				012255681F3712D0002E2E3B /* DesiredLeagueVC.swift */,
+				0122556A1F37162C002E2E3B /* StartingPlayBallVC.swift */,
 				0122552F1F363B6E002E2E3B /* Main.storyboard */,
 				012255321F363B6E002E2E3B /* Assets.xcassets */,
 				012255341F363B6E002E2E3B /* LaunchScreen.storyboard */,
@@ -178,8 +184,10 @@
 				012255641F364D0D002E2E3B /* UIViewControllerX.swift in Sources */,
 				0122555E1F364D0D002E2E3B /* UIViewAnchorPoint.swift in Sources */,
 				012255651F364D0D002E2E3B /* UIVisualEffectViewX.swift in Sources */,
+				0122556B1F37162C002E2E3B /* StartingPlayBallVC.swift in Sources */,
 				012255601F364D0D002E2E3B /* UIImageViewX.swift in Sources */,
 				012255631F364D0D002E2E3B /* UIViewXRadialGradient.swift in Sources */,
+				012255691F3712D0002E2E3B /* DesiredLeagueVC.swift in Sources */,
 				0122555F1F364D0D002E2E3B /* UIViewX.swift in Sources */,
 				012255621F364D0D002E2E3B /* UIButtonX.swift in Sources */,
 				012255611F364D0D002E2E3B /* UISliderX.swift in Sources */,

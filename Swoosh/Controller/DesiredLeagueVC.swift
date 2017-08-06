@@ -35,5 +35,10 @@ class DesiredLeagueVC: UIViewController {
     @IBAction func unwindFromStartingfPlayBallVC(unwindSeque: UIStoryboardSegue) {
     
     }
+    
+    @IBAction func nextPressed(_ sender: Any) {
+        performSegue(withIdentifier: "startinPlayBallVCSeque", sender: self)
+    }
+    
 
 }

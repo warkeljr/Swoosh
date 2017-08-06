@@ -18,5 +18,10 @@ class ViewController: UIViewController {
     @IBAction func unwindFromSkillVC(unwindSeque: UIStoryboardSegue) {
         
     }
+    
+    @IBAction func getSartedPressed(_ sender: Any) {
+        performSegue(withIdentifier: "desiredLeagueVCSeque", sender: self)
+    }
+    
 }
 

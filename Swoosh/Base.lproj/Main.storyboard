@@ -62,7 +62,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIG-97-zbf" customClass="UIButtonX" customModule="Swoosh" customModuleProvider="target">
                                 <rect key="frame" x="16" y="587" width="343" height="60"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="OxI-Yv-GrA"/>
                                 </constraints>
@@ -79,7 +79,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="X7M-kj-J7J" kind="show" id="ewK-wj-BlD"/>
+                                    <action selector="getSartedPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D3F-fR-PqW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -106,10 +106,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="X7M-kj-J7J" kind="show" identifier="desiredLeagueVCSeque" id="uTd-6w-Fo6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-66.400000000000006" y="86.806596701649184"/>
+            <point key="canvasLocation" x="-63" y="87"/>
         </scene>
         <!--Desired LeagueVC-->
         <scene sceneID="LcD-Pp-D5s">
@@ -138,7 +141,7 @@
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZu-L4-Sha" customClass="UIButtonX" customModule="Swoosh" customModuleProvider="target">
                                 <rect key="frame" x="16" y="587" width="343" height="60"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="VAx-fL-r88"/>
                                 </constraints>
@@ -155,7 +158,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="WAy-eO-fey" kind="show" id="T3H-k4-n0I"/>
+                                    <action selector="nextPressed:" destination="X7M-kj-J7J" eventType="touchUpInside" id="Smj-vd-v45"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="XAe-25-6ZE">
@@ -163,7 +166,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4Q-hz-Ml2" customClass="UIButtonX" customModule="Swoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="60"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="38V-tF-0P5"/>
                                         </constraints>
@@ -182,7 +185,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V9h-bW-yKi" customClass="UIButtonX" customModule="Swoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="80" width="343" height="60"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="OrA-ZB-TDP"/>
                                         </constraints>
@@ -201,7 +204,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9km-9L-LQd" customClass="UIButtonX" customModule="Swoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="160" width="343" height="60"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="hPB-i4-YR1"/>
                                         </constraints>
@@ -252,6 +255,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6M1-Qn-Yyh"/>
                     </view>
+                    <connections>
+                        <segue destination="WAy-eO-fey" kind="show" identifier="startinPlayBallVCSeque" id="LjV-p5-q8o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0oE-I6-iw6" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="UDL-JE-xa3" userLabel="Exit" sceneMemberID="exit"/>
@@ -289,7 +295,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqe-zk-GYS" customClass="UIButtonX" customModule="Swoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="161.5" height="60"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="2zB-sy-SMJ"/>
                                         </constraints>
@@ -308,7 +314,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncY-Db-Yhb" customClass="UIButtonX" customModule="Swoosh" customModuleProvider="target">
                                         <rect key="frame" x="181.5" y="0.0" width="161.5" height="60"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="jPb-0y-Zwu"/>
                                         </constraints>
@@ -329,7 +335,7 @@
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqY-Sk-Zne" customClass="UIButtonX" customModule="Swoosh" customModuleProvider="target">
                                 <rect key="frame" x="16" y="587" width="343" height="60"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="MY6-r2-Odw"/>
                                 </constraints>

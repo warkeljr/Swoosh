@@ -70,6 +70,7 @@ class DesiredLeagueVC: UIViewController {
         
         if let skillVC = segue.destination as? skillVC {
             skillVC.player = player
+
         }
      // Get the new view controller using segue.destinationViewController.
      // Pass the selected object to the new view controller.

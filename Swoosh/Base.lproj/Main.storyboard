@@ -274,10 +274,10 @@
             </objects>
             <point key="canvasLocation" x="678" y="87"/>
         </scene>
-        <!--Starting Play BallVC-->
+        <!--SkillVC-->
         <scene sceneID="7Cf-eW-0MJ">
             <objects>
-                <viewController id="WAy-eO-fey" customClass="StartingPlayBallVC" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="WAy-eO-fey" customClass="skillVC" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QR7-dW-KDr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

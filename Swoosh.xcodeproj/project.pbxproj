@@ -23,7 +23,7 @@
 		012255661F364D0D002E2E3B /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0122555C1F364D0D002E2E3B /* UILabelX.swift */; };
 		012255671F364D0D002E2E3B /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0122555D1F364D0D002E2E3B /* UITextFieldX.swift */; };
 		012255691F3712D0002E2E3B /* DesiredLeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012255681F3712D0002E2E3B /* DesiredLeagueVC.swift */; };
-		0122556B1F37162C002E2E3B /* StartingPlayBallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0122556A1F37162C002E2E3B /* StartingPlayBallVC.swift */; };
+		0122556B1F37162C002E2E3B /* skillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0122556A1F37162C002E2E3B /* skillVC.swift */; };
 		013D86951F3867FD0095515F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013D86941F3867FD0095515F /* Player.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +46,7 @@
 		0122555C1F364D0D002E2E3B /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
 		0122555D1F364D0D002E2E3B /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
 		012255681F3712D0002E2E3B /* DesiredLeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesiredLeagueVC.swift; sourceTree = "<group>"; };
-		0122556A1F37162C002E2E3B /* StartingPlayBallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingPlayBallVC.swift; sourceTree = "<group>"; };
+		0122556A1F37162C002E2E3B /* skillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skillVC.swift; sourceTree = "<group>"; };
 		013D86941F3867FD0095515F /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +80,7 @@
 		0122552A1F363B6E002E2E3B /* Swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				01A0AFE71F38DF32000C62BD /* Constants */,
 				0122556F1F373150002E2E3B /* Utils */,
 				012255531F364CF0002E2E3B /* Designables */,
 				0122556D1F37313A002E2E3B /* Model */,
@@ -116,7 +117,7 @@
 			children = (
 				0122552D1F363B6E002E2E3B /* ViewController.swift */,
 				012255681F3712D0002E2E3B /* DesiredLeagueVC.swift */,
-				0122556A1F37162C002E2E3B /* StartingPlayBallVC.swift */,
+				0122556A1F37162C002E2E3B /* skillVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -141,6 +142,13 @@
 			children = (
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		01A0AFE71F38DF32000C62BD /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +227,7 @@
 				012255641F364D0D002E2E3B /* UIViewControllerX.swift in Sources */,
 				0122555E1F364D0D002E2E3B /* UIViewAnchorPoint.swift in Sources */,
 				012255651F364D0D002E2E3B /* UIVisualEffectViewX.swift in Sources */,
-				0122556B1F37162C002E2E3B /* StartingPlayBallVC.swift in Sources */,
+				0122556B1F37162C002E2E3B /* skillVC.swift in Sources */,
 				012255601F364D0D002E2E3B /* UIImageViewX.swift in Sources */,
 				012255631F364D0D002E2E3B /* UIViewXRadialGradient.swift in Sources */,
 				012255691F3712D0002E2E3B /* DesiredLeagueVC.swift in Sources */,
@@ -367,6 +375,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QUF74GRPF3;
 				INFOPLIST_FILE = Swoosh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.warcom.Swoosh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,6 +390,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QUF74GRPF3;
 				INFOPLIST_FILE = Swoosh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.warcom.Swoosh;
 				PRODUCT_NAME = "$(TARGET_NAME)";

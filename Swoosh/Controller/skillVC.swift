@@ -8,12 +8,15 @@
 
 import UIKit
 
-class StartingPlayBallVC: UIViewController {
+class skillVC: UIViewController {
 
+    var player: Player!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        
+        print(player.desiredleaque)
     }
 
     override func didReceiveMemoryWarning() {

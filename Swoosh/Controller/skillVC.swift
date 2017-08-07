@@ -12,15 +12,13 @@ class skillVC: UIViewController {
 
     @IBOutlet weak var typeOfPerson: UILabel!
     var player: Player!
-
-
-    
+    var personType = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 
-        
+        typeOfPerson.text = "The choice i made was \(personType)"
     }
 
     override func didReceiveMemoryWarning() {

@@ -108,6 +108,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Uu7-Ww-ZYp" secondAttribute="trailing" constant="8" id="vbd-og-maL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="REb-hj-a3m"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <segue destination="X7M-kj-J7J" kind="show" identifier="desiredLeagueVCSeque" id="uTd-6w-Fo6"/>

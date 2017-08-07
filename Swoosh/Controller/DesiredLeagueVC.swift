@@ -25,7 +25,8 @@ class DesiredLeagueVC: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        nextBtn.setTitleColor(UIColor.gray, for: .normal)
+        nextBtn.setTitleColor(UIColor.lightGray, for: .normal)
+        nextBtn.transform = CGAffineTransform(scaleX: 0.0, y: 0.0)
         
     }
     
@@ -52,8 +53,14 @@ class DesiredLeagueVC: UIViewController {
     
     func selectLeague(leagueType: String) {
         player.desiredleaque = leagueType
-        nextBtn.isEnabled = true
-        nextBtn.setTitleColor(UIColor.white, for: .normal)
+        
+        UIView.animate(withDuration: 0.6, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.0, options: .curveEaseIn, animations: {
+            
+            self.nextBtn.transform = .identity
+            self.nextBtn.isEnabled = true
+            self.nextBtn.setTitleColor(UIColor.white, for: .normal)
+        }, completion: nil)
+       
     }
     
     
@@ -70,6 +77,7 @@ class DesiredLeagueVC: UIViewController {
         
         if let skillVC = segue.destination as? skillVC {
             skillVC.player = player
+            skillVC.personType = player.desiredleaque!
 
         }
      // Get the new view controller using segue.destinationViewController.

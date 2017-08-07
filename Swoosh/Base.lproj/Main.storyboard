@@ -139,7 +139,7 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZu-L4-Sha" customClass="UIButtonX" customModule="Swoosh" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZu-L4-Sha" customClass="UIButtonX" customModule="Swoosh" customModuleProvider="target">
                                 <rect key="frame" x="16" y="587" width="343" height="60"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -182,6 +182,9 @@
                                                 <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onMensPressed:" destination="X7M-kj-J7J" eventType="touchUpInside" id="AsA-IO-3pV"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V9h-bW-yKi" customClass="UIButtonX" customModule="Swoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="80" width="343" height="60"/>
@@ -201,6 +204,9 @@
                                                 <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onWomensPressed:" destination="X7M-kj-J7J" eventType="touchUpInside" id="ogj-jc-T7n"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9km-9L-LQd" customClass="UIButtonX" customModule="Swoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="160" width="343" height="60"/>
@@ -220,6 +226,9 @@
                                                 <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onCoedPressed:" destination="X7M-kj-J7J" eventType="touchUpInside" id="Rn3-0T-qmw"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -256,6 +265,7 @@
                         <viewLayoutGuide key="safeArea" id="6M1-Qn-Yyh"/>
                     </view>
                     <connections>
+                        <outlet property="nextBtn" destination="qZu-L4-Sha" id="1go-T2-Ndz"/>
                         <segue destination="WAy-eO-fey" kind="show" identifier="startinPlayBallVCSeque" id="LjV-p5-q8o"/>
                     </connections>
                 </viewController>
